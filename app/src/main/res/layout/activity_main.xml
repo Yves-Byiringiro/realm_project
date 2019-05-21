@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:inputType="number"
+      android:id="@+id/regnumber"
+      android:hint="RegNumber"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="50dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/firstname"
+        android:hint="@string/firtname"
+        android:layout_below="@id/regnumber"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/lastname"
+        android:hint="@string/lstname"
+        android:layout_below="@id/firstname"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:id="@+id/btnsave"
+        android:layout_below="@id/lastname"
+        android:layout_centerHorizontal="true"/>
+  android:layout_centerHorizontal="true"/>
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="ViewFirtsname"
+      android:id="@+id/view"
+      android:layout_below="@id/btnsave"
+      android:layout_centerHorizontal="true"
+      android:onClick="show"/>
+
+
+</RelativeLayout>

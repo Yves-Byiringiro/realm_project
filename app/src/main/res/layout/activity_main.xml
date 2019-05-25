@@ -30,6 +30,7 @@
         android:hint="@string/lstname"
         android:layout_below="@id/firstname"
         android:layout_centerHorizontal="true"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,7 +38,6 @@
         android:id="@+id/btnsave"
         android:layout_below="@id/lastname"
         android:layout_centerHorizontal="true"/>
-  android:layout_centerHorizontal="true"/>
   <Button
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
